@@ -1,0 +1,14 @@
+.layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+
+    min-height: 100vh;
+
+
+}
+
+@media screen and (min-width: 980px) {
+    .layout {
+        grid-template-columns: 300px 1fr 300px;
+    }
+}

@@ -1,0 +1,27 @@
+.box {
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 15px;
+
+
+    &:hover {
+        color: var(--c-text-color);
+    }
+}
+
+.body {
+    margin-left: 10px;
+    margin-right: 20px;
+
+    * {
+        display: block;
+    }
+}
+
+.slug {
+    color: var(--c-gray);
+}
+
+.icon {
+    margin-left: auto;
+}
